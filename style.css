@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-size: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+header {
+  display: flex;
+  color: #6B03D1;
+}
+
+.header-informacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  background-color: #D16B03;
+  box-sizing: border-box;
+  height: 100%;
+  user-select: none;
+}
+
+main{
+  display: flex;
+  box-sizing: border-box;
+  flex: 1;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.placeholder {
+  border: none;
+  background-color: #E5E5E5;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-transform: lowercase;
+  resize: none;
+}
+
+::placeholder { color: #850BFC}
+.placeholder:focus {
+  outline: none;
+}
+
+.areas {
+  border: none;
+  background-image: url("");
+  background-color: #E5E5E5;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-transform: lowercase;
+  margin-left: 20%;
+  
+  resize: none;
+}
+.areas:focus {
+  outline: none;
+}
+
+
+.logo {
+  padding-top: 15px;
+  margin-left: 20px ;
+  width: 60px;
+}
+
+
+
+.footer {
+  padding: 24px;
+  background-color: #0369D1;
+}
+
+.footer-rodapie {
+  background-color: #6B03D1;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+.informacion {
+  color: #6B03D1;
+}
+
+.btnDesencriptar {
+  text-align: center;
+  height: 67px;
+  width: 328px;
+  background-color: #850BFC;
+  color: #D16B03;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 24px;
+  border: 2px solid #4a0192;
+}
+
+.btnEncriptar {
+  text-align: center;
+  height: 67px;
+  width: 328px;
+  background-color: #850BFC;
+  color: #D16B03;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #4a0192;
+}
+
+.aviso {
+  color: #850BFC;
+  font-size: 18px;
+}
+
+.btnCopiar{
+  text-align: center;
+  height: 67px;
+  width: 328px;
+  background-color: #850BFC;
+  color: #D16B03;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;  
+  border: 2px solid #4a0192;
+  margin-left: 145px;
+  margin-top: 35px;
+}
+
+
+.campo2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
